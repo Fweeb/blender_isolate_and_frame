@@ -1,6 +1,6 @@
 # Isolate and Frame
 
-This is a Blender add-on for isolating and framing a selected animation channel in the Graph Editor.
+This is a Blender add-on for isolating and framing a selected animation channel in the Graph Editor. It originated in a [thread on blenderartists.org](http://blenderartists.org/forum/showthread.php?242421-Graph-Editor-Feature-Requests) by Chad Gleason ('fahr'). It's not perfect (see Notes and Known Issues), but it does the job.
 
 Usage instructions:
 
