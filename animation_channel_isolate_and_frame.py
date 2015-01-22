@@ -21,7 +21,7 @@
 bl_info = {
     "name": "Channel Isolate and Frame",
     "author": "Jason van Gumster (Fweeb)",
-    "version": (0, 3, 0),
+    "version": (0, 3, 1),
     "blender": (2, 73, 0),
     "location": "Graph Editor > Channel > Isolate and Frame",
     "description": "Isolates and frames a selected channel in the Graph Editor.",
