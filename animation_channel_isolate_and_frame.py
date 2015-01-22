@@ -21,13 +21,12 @@
 bl_info = {
     "name": "Channel Isolate and Frame",
     "author": "Jason van Gumster (Fweeb)",
-    "version": (0, 2, 1),
-    "blender": (2, 6, 2),
-    "api": 43969,
+    "version": (0, 3, 0),
+    "blender": (2, 73, 0),
     "location": "Graph Editor > Channel > Isolate and Frame",
     "description": "Isolates and frames a selected channel in the Graph Editor.",
     "wiki_url": "http://wiki.blender.org/index.php?title=Extensions:2.6/Py/Scripts/Animation/Channel_Isolate_and_Frame",
-    "tracker_url": "http://projects.blender.org/tracker/index.php?func=detail&aid=30339&group_id=153&atid=467",
+    "tracker_url": "https://github.com/Fweeb/blender_isolate_and_frame/issues",
     "category": "Animation"}
 
 
