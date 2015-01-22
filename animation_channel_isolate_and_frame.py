@@ -41,9 +41,7 @@ class IsolateAndFrame(bpy.types.Operator):
         return context.area.type == 'GRAPH_EDITOR'
 
     def execute(self, context):
-        for action in bpy.data.actions:
-            for fcurve in action.fcurves:
-                fcurve.hide = not fcurve.select
+        bpy.ops.graph.hide(unselected=True)
         bpy.ops.screen.region_flip('EXEC_REGION_CHANNELS')
         bpy.ops.graph.view_all('EXEC_REGION_WIN')
         bpy.ops.screen.region_flip('EXEC_REGION_CHANNELS')
